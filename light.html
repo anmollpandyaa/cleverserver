@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Nexus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: 'Segoe Script', cursive;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navbar styles */
+        .navbar {
+            background-color: antiquewhite;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #333;
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            list-style-type: none;
+        }
+
+        .nav-links li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-links li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        /* Hero section styles */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Blog section styles */
+        .blog {
+            padding: 80px 0;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+            padding: 100px 50px 50px 100px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .blog-post h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 1.1rem;
+        }
+
+        .content-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+
+        /* About section styles */
+        .about {
+            background-color: antiquewhite;
+            color: #333;
+            padding: 80px 0;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Footer styles */
+        .footer {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Cloud Nexus</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Cloud Nexus</h1>
+            <p>Unlock the complexities of technology, delve into the world of cloud computing with ease.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+        <div class="container">
+            <!-- Blog Post 1 -->
+            <div class="blog-post">
+                <img src="Cloud post.webp" class="content-image" alt="Blog Post 1">
+                <h2>Getting Started with Cloud Computing: A Beginner's Guide</h2>
+                Are you captivated by the concept of cloud computing but unsure where to begin? In this article, we'll
+                unravel the mysteries of cloud technology, explore its benefits, & guide you through the initial steps
+                to kickstart your journey into the cloud.<br><br>
+
+                <u>Understanding Cloud Computing:</u>
+
+                At its core, cloud computing refers to the delivery of computing services like servers, storage,
+                databases, networking, software, and more over the internet instead of local systems. Unlike traditional
+                computing models that require physical hardware and infrastructure, cloud computing enables users to
+                access resources on-demand from anywhere with a user-ID, password & a internet connection.<br><br>
+
+                <u>Benefits of Cloud Computing:</u>
+
+                The adoption of cloud computing offers a multitude of benefits, making it a game-changer in today's
+                digital landscape. Some key advantages include:<br><br>
+
+                1. SCALIBILITY: Cloud resources can be easily scaled up or down to accommodate changing demands,
+                allowing enterprise to optimize costs and performance.<br>
+                2. FLEXIBILITY: With cloud computing, users have the flexibility to access resources and applications
+                from any device, anytime, anywhere, promoting collaboration and productivity.<br>
+                3. COST EFFICIENCY: Cloud services operate on a pay-as-you-go model, eliminating the need for upfront
+                investments in hardware and infrastructure as it goes from CAPEX to OPEX.<br>
+                4. RELIABILITY: Cloud providers offer robust infrastructure and redundancy measures to ensure high
+                availability and reliability of services, minimizing downtime and disruptions.<br><br>
+
+                Ready to embark on your cloud journey? Here are some initial steps to get you started:<br><br>
+
+                1. EDUCATION: Begin by gaining basic understanding of cloud computing concepts and related
+                terminologies. Explore online tutorials and documentation offered by reputable platforms such as AWS,
+                Microsoft Azure, and Google Cloud.<br>
+
+                2. EXPERIENCE: Dive into practical exercises and hands-on labs to gain experience working with cloud
+                services. Cloud providers like AWS offer free-tier accounts or trial periods, allowing you to experiment
+                with various services without incurring costs.<br>
+
+                3. CERTIFICATION: Consider pursuing certifications offered by cloud providers to validate your skills
+                and enhance your credibility in the industry. CCNA is one great option to choose among the avaiblable
+                options.</p><br><br>
+                <!-- Add comment section here -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Cloud Nexus! I'm Anmol Pandya, a Computer Science Engineering student and the founder of this
+                platform.
+                Fueled by my passion for cloud technology sparked during college, I've launched this blog to simplify
+                the complex world of cloud
+                computing. Through curated content and my own experiences, I aim to provide a space where enthusiasts
+                can navigate the ever-expanding
+                realm of technology. Having achieved top ranks in Google Cloud Study Jams and holding an official
+                Microsoft certification in
+                Azure Fundamentals, I'm committed to sharing valuable insights and fostering a community where knowledge
+                is shared and
+                experiences are celebrated.</p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Cloud Nexus</p>
+        </div>
+    </footer>
+    <script>// Smooth scroll to anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50, // Adjusted for navbar height
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
