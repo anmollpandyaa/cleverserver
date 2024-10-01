@@ -8,26 +8,23 @@
 
         /* Body styles */
         body {
-            font-family: "Nunito", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 500;
-            font-style: normal;
-            background-color: #f8f9fa;
-            color: #333;
+            font-family: 'Segoe Script', cursive;
+            background-color: #000;
+            color: #fff;
         }
 
         /* Container styles */
         .container {
             max-width: 1100px;
             margin: 0 auto;
-            padding: 0 10px;
+            padding: 0 20px;
         }
 
         /* Navbar styles */
         .navbar {
-            background-color: antiquewhite;
-            color: #333;
-            border-bottom: 1px solid #ddd;
+            background-color: #343a40;
+            color: #fff;
+            border-bottom: 1px solid #555;
             padding: 20px 0;
         }
 
@@ -38,7 +35,7 @@
         }
 
         .logo {
-            color: #333;
+            color: #fff;
             font-size: 2rem;
         }
 
@@ -52,7 +49,7 @@
         }
 
         .nav-links li a {
-            color: #333;
+            color: #fff;
             text-decoration: none;
             font-size: 1.2rem;
         }
@@ -61,8 +58,10 @@
         .hero {
             text-align: center;
             padding: 100px 0;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
+
+
 
         .hero h1 {
             font-size: 3rem;
@@ -80,8 +79,6 @@
 
         .blog-post {
             margin-bottom: 40px;
-            padding: 1px 5px 5px 1px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
 
         .blog-post img {
@@ -93,10 +90,13 @@
         .blog-post h2 {
             font-size: 2rem;
             margin-bottom: 10px;
+
         }
 
         .blog-post p {
             font-size: 1.1rem;
+            padding: 100px 50px 50px 100px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .content-image {
@@ -107,8 +107,8 @@
 
         /* About section styles */
         .about {
-            background-color: antiquewhite;
-            color: #333;
+            background-color: #343a40;
+            color: #fff;
             padding: 80px 0;
         }
 
@@ -124,9 +124,9 @@
 
         /* Footer styles */
         .footer {
-            background-color: #fff;
-            color: #333;
+            background-color: #000;
+            color: #fff;
             text-align: center;
             padding: 20px 0;
-            border-top: 1px solid #ddd;
+            border-top: 1px solid #555;
         }
